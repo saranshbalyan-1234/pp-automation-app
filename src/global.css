@@ -1,0 +1,67 @@
+.pointer {
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.star::before {
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff4d4f;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: '*';
+}
+
+body {
+  margin: 0px;
+}
+
+h3,
+h4,
+h5 {
+  margin-top: 0px;
+}
+
+.ant-menu-item,
+.ant-menu-title-content {
+  transition: none !important;
+}
+
+.show-boundary:hover {
+  border: 1px solid grey;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.show-boundary {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.profileMenu:hover {
+  background-color: #021d36;
+  border-radius: 15px;
+}
+.menuDivider {
+  border: 1px solid grey !important;
+  margin-top: -5px !important;
+}
+
+.ant-form-item {
+  margin-bottom: 15px !important;
+}
+
+.dark {
+  opacity: 1;
+}
+.light {
+  opacity: 0.4;
+}
